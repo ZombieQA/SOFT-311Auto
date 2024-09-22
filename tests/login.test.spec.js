@@ -126,7 +126,7 @@ test.describe('All Tests', () => {
         await page.locator('#continue').click();
         await page.locator('#finish').click();
         const completeHeader = page.locator('.complete-header');
-        await expect(completeHeader).toHaveText('THANK YOU FOR YOUR ORDER!');
+        await expect(completeHeader).toHaveText('Thank you for your order!');
     });
 
     test('TC-11 Cannot proceed to checkout with an empty cart', async ({ page }) => {
