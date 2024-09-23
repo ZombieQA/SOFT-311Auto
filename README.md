@@ -19,17 +19,17 @@ To run this solution, you need to have the following software installed:
 ## Set up the environment and download dependencies
 To set up the project and install the required dependencies, execute the following commands in the solution root directory:
 
-## Install dependencies
+### Install dependencies
 ```bash
 npm install
 ```
 
-## Running Tests
+### Running Tests
 ```bash
 npx playwright test
 ```
 
-## Directory Structure
+### Directory Structure
 - **pages/:** Contains page object classes representing different pages of the e-commerce platform (e.g., LoginPage, InventoryPage, CartPage, CheckoutPage).
 - **tests/:** Contains test specification files (e.g., login.test.spec.js) that define the test cases using the Playwright test framework.
 
