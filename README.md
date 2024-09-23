@@ -13,8 +13,10 @@ The project leverages a page object model to organize the test structure and imp
 ## Requirements
 To run this solution, you need to have the following software installed:
 
-- [Node.js (v20.11.0)](https://nodejs.org/en/)
-- [Playwright (latest version)](https://playwright.dev/)
+- [Node.js (v20.11.0)](https://nodejs.org/en/) (which includes JavaScript)
+- [Playwright](https://playwright.dev/) (latest version)
+- [Git](https://git-scm.com/) (if cloning the project from a repository)
+- **Optional:** [AQUA IDE](https://www.aquacloud.io/) or [Visual Studio Code](https://code.visualstudio.com/) for development
 
 ## Set up the environment and download dependencies
 To set up the project and install the required dependencies, execute the following commands in the solution root directory:
@@ -28,6 +30,11 @@ npm install
 ```bash
 npx playwright test
 ```
+### Running Tests Headed
+```bash
+npx playwright test --headed
+```
+
 
 ### Directory Structure
 - **pages/:** Contains page object classes representing different pages of the e-commerce platform (e.g., LoginPage, InventoryPage, CartPage, CheckoutPage).
@@ -46,7 +53,3 @@ This solution has been tested on the following operating systems:
 - [Windows 11 Pro 23H2](https://www.microsoft.com/en-us/software-download/windows11)
 - [Mac OS Sonoma 14.2.1](https://www.apple.com/macos/sonoma/)
 - [Linux: Playwright Linux setup](https://playwright.dev/docs/intro#system-requirements) (Ensure you install required the dependencies)
-- [Node.js (v20.11.0)](https://nodejs.org/en/) (which includes JavaScript)
-- [Playwright](https://playwright.dev/) (latest version)
-- [Git](https://git-scm.com/) (if cloning the project from a repository)
-- Optional: [AQUA IDE](https://www.aquacloud.io/) or [Visual Studio Code](https://code.visualstudio.com/) for development
